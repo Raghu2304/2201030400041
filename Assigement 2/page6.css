@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color:#6194F7;
+  position: relative;
+}
+h1{
+align-items: center;
+    background-color: rgba(16, 93, 241, 0.8999999762);
+    color: #161515;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 3rem;
+    font-weight: 400;
+    height: 9.5rem;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2125;
+    margin-bottom: 6.6rem;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 100px;
+    font-size: 70px;
+
+}
+h2{
+  text-align: center;
+  font-size: 5rem;
+}
+.btn {
+    color: #000;
+    background-color: rgba(16, 93, 241, 0.8999999762);
+    padding: 12px 16px;
+    font-size: 32px;
+    margin-right:800px;
+}
+.btn:hover {
+    background-color: #606060;
+}
+/* this is for the main contain container */
+.container-main {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  left: 11%;
+  margin: 130px auto;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 150px;
+}
+.images img {
+  border-radius: 20px;
+  width: 300px;
+  height: auto;
+  display: block;
+}
+.card {
+  border-radius: 20px;
+}
+
+.card p {
+  font-size: 35px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.card {
+  transition: all 0.2s ease;
+}
+.card:hover {
+  background-color: rgb(0, 238, 255);
+}
